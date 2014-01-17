@@ -1,0 +1,109 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>MVC4 HTML5 Boilerplate Project</Name>
+    <Description>Default ASP.NET MVC4 project with the HTML5 Boilerplate Template.</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>MVC4 HTML5 Boilerplate Project</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.png</Icon>
+    <PreviewImage>__PreviewImage.PNG</PreviewImage>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="html5BoilerPlate.csproj" File="html5BoilerPlate.csproj" ReplaceParameters="true">
+      <Folder Name="App_Data" TargetFolderName="App_Data" />
+      <Folder Name="App_Start" TargetFolderName="App_Start">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AuthConfig.cs">AuthConfig.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="BundleConfig.cs">BundleConfig.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="FilterConfig.cs">FilterConfig.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="RouteConfig.cs">RouteConfig.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="WebApiConfig.cs">WebApiConfig.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Content" TargetFolderName="Content">
+        <Folder Name="themes" TargetFolderName="themes">
+          <Folder Name="base" TargetFolderName="base">
+            <Folder Name="css" TargetFolderName="css">
+              <ProjectItem ReplaceParameters="true" TargetFileName="main.css">main.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="normalize.css">normalize.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="normalize.min.css">normalize.min.css</ProjectItem>
+            </Folder>
+            <Folder Name="img" TargetFolderName="img" />
+            <Folder Name="js" TargetFolderName="js">
+              <Folder Name="vendor" TargetFolderName="vendor">
+                <ProjectItem ReplaceParameters="true" TargetFileName="jquery-1.10.1.min.js">jquery-1.10.1.min.js</ProjectItem>
+                <ProjectItem ReplaceParameters="true" TargetFileName="modernizr-2.6.2-respond-1.1.0.min.js">modernizr-2.6.2-respond-1.1.0.min.js</ProjectItem>
+              </Folder>
+            </Folder>
+          </Folder>
+        </Folder>
+      </Folder>
+      <Folder Name="Controllers" TargetFolderName="Controllers">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AccountController.cs">AccountController.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="HomeController.cs">HomeController.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="false" TargetFileName="favicon.ico">favicon.ico</ProjectItem>
+      <Folder Name="Filters" TargetFolderName="Filters">
+        <ProjectItem ReplaceParameters="true" TargetFileName="InitializeSimpleMembershipAttribute.cs">InitializeSimpleMembershipAttribute.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Global.asax">Global.asax</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Global.asax.cs">Global.asax.cs</ProjectItem>
+      <Folder Name="Images" TargetFolderName="Images">
+        <ProjectItem ReplaceParameters="false" TargetFileName="accent.png">accent.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="bullet.png">bullet.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="heroAccent.png">heroAccent.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="orderedList0.png">orderedList0.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="orderedList1.png">orderedList1.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="orderedList2.png">orderedList2.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="orderedList3.png">orderedList3.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="orderedList4.png">orderedList4.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="orderedList5.png">orderedList5.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="orderedList6.png">orderedList6.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="orderedList7.png">orderedList7.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="orderedList8.png">orderedList8.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="orderedList9.png">orderedList9.png</ProjectItem>
+      </Folder>
+      <Folder Name="Models" TargetFolderName="Models">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AccountModels.cs">AccountModels.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="packages.config">packages.config</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Views" TargetFolderName="Views">
+        <ProjectItem ReplaceParameters="false" TargetFileName="_ViewStart.cshtml">_ViewStart.cshtml</ProjectItem>
+        <Folder Name="Account" TargetFolderName="Account">
+          <ProjectItem ReplaceParameters="false" TargetFileName="_ChangePasswordPartial.cshtml">_ChangePasswordPartial.cshtml</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="_ExternalLoginsListPartial.cshtml">_ExternalLoginsListPartial.cshtml</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="_RemoveExternalLoginsPartial.cshtml">_RemoveExternalLoginsPartial.cshtml</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="_SetPasswordPartial.cshtml">_SetPasswordPartial.cshtml</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="ExternalLoginConfirmation.cshtml">ExternalLoginConfirmation.cshtml</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="ExternalLoginFailure.cshtml">ExternalLoginFailure.cshtml</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Login.cshtml">Login.cshtml</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Manage.cshtml">Manage.cshtml</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Register.cshtml">Register.cshtml</ProjectItem>
+        </Folder>
+        <Folder Name="Home" TargetFolderName="Home">
+          <ProjectItem ReplaceParameters="false" TargetFileName="About.cshtml">About.cshtml</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Contact.cshtml">Contact.cshtml</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Index.cshtml">Index.cshtml</ProjectItem>
+        </Folder>
+        <Folder Name="Shared" TargetFolderName="Shared">
+          <ProjectItem ReplaceParameters="false" TargetFileName="_Layout.cshtml">_Layout.cshtml</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="_LayoutFooter.cshtml">_LayoutFooter.cshtml</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="_LayoutHeader.cshtml">_LayoutHeader.cshtml</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="_LayoutNavigation.cshtml">_LayoutNavigation.cshtml</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Error.cshtml">Error.cshtml</ProjectItem>
+        </Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.Debug.config">Web.Debug.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.Release.config">Web.Release.config</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
