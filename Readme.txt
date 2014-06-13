@@ -1,3 +1,5 @@
+**HEY! This repo is deprecated! MVC5's default template is Bootstrap 3.x so this is no longer maintained**
+
 Visual Studio MVC4 HTML5 Boilerplate Template
 
 Uses the Razor engine.
